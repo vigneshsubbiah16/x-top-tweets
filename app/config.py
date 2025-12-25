@@ -10,6 +10,7 @@ class Settings:
     TWITTER_API_SECRET: str = os.getenv("TWITTER_API_SECRET", "")
     TWITTER_ACCESS_TOKEN: str = os.getenv("TWITTER_ACCESS_TOKEN", "")
     TWITTER_ACCESS_TOKEN_SECRET: str = os.getenv("TWITTER_ACCESS_TOKEN_SECRET", "")
+    UNBOUND_API_KEY: str = os.getenv("UNBOUND_API_KEY", "")
 
 
 settings = Settings()

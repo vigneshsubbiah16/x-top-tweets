@@ -19,3 +19,12 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Cache
+cache/
+
+# Debug logs
+debug_logs/
+
+# Rate limit state (runtime)
+rate_limit_state.json
